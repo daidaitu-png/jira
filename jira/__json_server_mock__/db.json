@@ -1,57 +1,127 @@
 {
   "users": [
     {
-      "id":1,
-      "name":"高写完"
+      "id": 1,
+      "name": "高写完"
     },
     {
-      "id":2,
-      "name":"熊天成"
+      "id": 2,
+      "name": "熊天成"
     },
     {
-      "id":3,
-      "name":"振华"
+      "id": 3,
+      "name": "振华"
     },
     {
-      "id":4,
-      "name":"王文静"
+      "id": 4,
+      "name": "王文静"
     }
   ],
-  "projects":[
+  "projects": [
     {
-      "id":1,
-      "name":"骑手管理",
-      "personId":1,
-      "organization":"外卖组",
-      "created":16424545144
+      "id": 1,
+      "name": "骑手管理",
+      "personId": 1,
+      "organization": "外卖组",
+      "created": 16424545144
     },
     {
-      "id":2,
-      "name":"团购APP",
-      "personId":2,
-      "organization":"团购组",
-      "created":164450145144
+      "id": 2,
+      "name": "团购APP",
+      "personId": 2,
+      "organization": "团购组",
+      "created": 164450145144
     },
     {
-      "id":3,
-      "name":"物料管理系统",
-      "personId":3,
-      "organization":"物料组",
-      "created":14564545144
+      "id": 3,
+      "name": "物料管理系统",
+      "personId": 3,
+      "organization": "物料组",
+      "created": 14564545144
     },
     {
-      "id":4,
-      "name":"总部管理系统",
-      "personId":3,
-      "organization":"总部",
-      "created":16424545245
+      "id": 4,
+      "name": "总部管理系统",
+      "personId": 3,
+      "organization": "总部",
+      "created": 16424545245
     },
     {
-      "id":5,
-      "name":"送餐路线规划系统",
-      "personId":4,
-      "organization":"外卖组",
-      "created":16424545000
+      "id": 5,
+      "name": "送餐路线规划系统",
+      "personId": 4,
+      "organization": "外卖组",
+      "created": 16424545000
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "parentId": -1,
+      "name": "sdaf",
+      "children": [
+        {
+          "name": "fsa",
+          "id": 10,
+          "parentId": 1,
+          "children": [
+            {
+              "name": "fssdjhga",
+              "id": 100,
+              "parentId": 10
+            },
+            {
+              "name": "fdeljga",
+              "id": 101,
+              "parentId": 10
+            }
+          ]
+        },
+        {
+          "name": "fsads",
+          "id": 11,
+          "parentId": 1
+        },
+        {
+          "name": "fsjmghma",
+          "id": 12,
+          "parentId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parentId": -1,
+      "name": "sd都是af",
+      "children": [
+        {
+          "name": "f机会sa",
+          "id": 20,
+          "parentId": 1
+        },
+        {
+          "name": "fsa得分ds",
+          "id": 21,
+          "parentId": 1,
+          "children": [
+            {
+              "name": "fssdjetewtehga",
+              "id": 210,
+              "parentId": 21
+            },
+            {
+              "name": "fdiouyijeljga",
+              "id": 211,
+              "parentId": 21
+            }
+          ]
+        },
+        {
+          "name": "的啊fsjmghma",
+          "id": 22,
+          "parentId": 1
+        }
+      ]
     }
   ]
 }

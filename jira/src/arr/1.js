@@ -85,3 +85,5 @@ category.map((item) => {
     : null;
 });
 console.log(obj);
+
+console.log(JSON.stringify(category));
