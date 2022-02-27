@@ -1,5 +1,21 @@
+interface SearchPanelProps {
+  users: User[]
+  param: {
+    name: string
+    personId: string
+  }
+  setParam: (param: SearchPanelProps["param"]) => void
+}
+export interface User {
+  id: string
+  name: string
+  email: string
+  title: string
+  organization: string
+}
 
-export const SearchPanel = ({ users, param, setParam }) => {
+
+export const SearchPanel = ({ users, param, setParam }: SearchPanelProps) => {
 
   return (
     <form action="">
